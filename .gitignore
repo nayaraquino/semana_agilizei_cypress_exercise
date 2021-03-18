@@ -1,7 +1,7 @@
 # cypress itens
-first_cypress_project/videos
-first_cypress_project/screenshots
+cypress/videos
+cypress/screenshots
 
 # others
 package-lock.json
-first_cypress_project/node_modules
+cypress/node_modules

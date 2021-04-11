@@ -29,7 +29,6 @@ Basta selecionar a spec que deseja executar.
 ![finances](https://user-images.githubusercontent.com/71460952/114321689-68720c80-9af2-11eb-91c0-23b62d9530c5.gif)
 
 
----
 ##
 Feito com ❤️ por <a href="https://www.linkedin.com/in/nayaraquino/">Nayara Aquino</a> :wave: Entre em contato!
 

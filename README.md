@@ -5,9 +5,10 @@ Projeto desenvolvido como exercício do Evento Semana Agilizei 3.0.
 Este é o meu primeiro contato com o framework.
 
 ## :books: Conceitos Apresentados no Módulo
-- Asserções e Mocks
-- Relatórios (Mochawesome e Cucumber HTML)
-- Cucumber + Cypress
+- Seletores CSS e Seletores avançados do Cypress
+- Asserções
+- Manipulação do LocalStorage
+- Cypress Dashboard
 - CI com GitHub Actions
 
 

@@ -27,12 +27,17 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     
-    # executar testes
-    - run: npm run test
-    - run: npm run test:functional
-    - run: npm run test:contract
-    - run: npm run test:healthcheck
     
+    # action criada especialmente para o Cypress    
+    - name: Cypress run
+      uses: cypress-io/github-action@v2.8.2
+      with:
+        record: true
+        group: 'Semana Agilizei'
+      env:
+        # pass the Dashboard record key as an environment variable
+        CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+        
     # upload dos vídeos gerados    
     - name: Upload videos
       uses: actions/upload-artifact@v2.2.0
